@@ -37,8 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # Custom apps start here
+    # Custom Apps
     'todo.apps.TodoConfig',
+    'api.apps.ApiConfig',
+    # Third-party Apps
+    'rest_framework',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
